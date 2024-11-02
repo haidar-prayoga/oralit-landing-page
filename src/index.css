@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bg-white-shadow {
+    @apply bg-gray-100 shadow-[0_3px_10px_rgb(0,0,0,0.2)] hover:shadow-gray-600;
+  }
+  .md-container {
+    @apply md:grid md:grid-cols-1 md:grid-rows-9;
+  }
+  .md-judul {
+    @apply;
+  }
+  .md-foto {
+    @apply md:row-span-2;
+  }
+  .md-composisi {
+    @apply md:row-start-4;
+  }
+  .md-section {
+    @apply md:row-span-4 md:row-start-5;
+  }
+}
