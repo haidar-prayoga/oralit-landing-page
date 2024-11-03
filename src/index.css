@@ -22,27 +22,7 @@
     @apply md:row-span-4 md:row-start-5;
   }
 
-  .md-first-row {
-    @apply md:grid md:grid-cols-2 md:grid-rows-5 md:gap-4
-  }
-
-  .lg-first-row {
-    @apply lg:grid lg:grid-cols-4 lg:grid-rows-5 lg:gap-4
-  }
-
-  /* Row 1 */
-  .lg-first-col-1 {
-    @apply lg:col-span-2 lg:row-span-5
-  }
-  .md-first-col-1 {
-    @apply md:row-span-5
-  }
-
-  /* Row 2 */
-  .md-first-col-2 {
-    @apply md:row-span-5
-  }
-  .lg-first-col-2 {
-    @apply md:col-span-2 md:row-span-5 md:col-start-3
+  .md-fifth-container {
+    @apply md:grid md:grid-cols-1 md:grid-rows-8 md:gap-4
   }
 }
