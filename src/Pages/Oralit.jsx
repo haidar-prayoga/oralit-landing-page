@@ -13,7 +13,7 @@ const Oralit = () => {
                 </span>
                 Ora<span className="text-green-500">Lit</span>
             </Navbar>
-            <div className="lg:w-[100%] lg:h-[145vh] mx-auto px-4 lg:pt-3 text-gray-900 bg-gray-200 md:w-[100%]">
+            <div className="lg:w-[100%] lg:h-[150vh] mx-auto px-4 lg:pt-3 text-gray-900 bg-gray-200 md:w-[100%]">
                 <div className="lg:grid lg:grid-cols-5 lg:grid-rows-6 gap-4 md-container">
                     {/* Foto */}
                     <div className="lg:row-span-2 rounded-md md-foto">
@@ -26,11 +26,11 @@ const Oralit = () => {
                     </div>
 
                     {/* Judul & Section */}
-                    <div className="lg:col-span-4 lg:col-start-2 rounded-md mt-5 bg-white-shadow">
+                    <div className="lg:col-span-4 lg:col-start-2 rounded-md my-4 bg-white-shadow">
                         <Judul />
                     </div>
 
-                    <div className="lg:col-span-4 lg:row-span-3 lg:col-start-2 lg:row-start-2 rounded-md bg-white-shadow md-section">
+                    <div className="lg:col-span-4 lg:row-span-3 lg:col-start-2 lg:row-start-2 rounded-md mb-3 bg-white-shadow md-section">
                         <Section />
                     </div>
                 </div>
