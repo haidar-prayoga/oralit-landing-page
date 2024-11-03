@@ -7,14 +7,14 @@ const Typography = () => {
     return (
         <div className="m-5 pt-5 text-white">
             <div className='mb-2'>
-                <h1 className='text-[2.5em]'>Apa itu diare?</h1>
+                <h1 className='lg:text-[2.5em] text-[1.5em]'>Apa itu diare?</h1>
                 <p className="text-[1em] px-4">
                     Diare merupakan penyakit yang menyebabkan seseorang buang air besar lebih sering (lebih dari 3 kali dalam sehari) dengan kondisi tinja yang encer.
                 </p>
             </div>
 
-            <div className='text-white'>
-                <h1 className='text-[2.5em]'>Faktor penyebab diare</h1>
+            <div className='text-white my-5'>
+                <h1 className='lg:text-[2.5em] text-[1.5em]'>Faktor penyebab diare</h1>
                 <ul className=" text-[1em] list-disc ps-7">
                     {lists.map((list, index) => (
                         <li key={index}>{list}</li>
