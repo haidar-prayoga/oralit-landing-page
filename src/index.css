@@ -21,4 +21,8 @@
   .md-section {
     @apply md:row-span-4 md:row-start-5;
   }
+
+  .sm-first-container {
+    @apply md:grid md:grid-cols-2 md:grid-rows-5 md:gap-4
+  }
 }

@@ -5,7 +5,7 @@ const CaraMencegah = () => {
                 Bagaimana cara mencegah dehidrasi sebelum anak dibawa ke sarana
                 kesehatan?
             </h1>
-            <p className="indent-8">
+            <p className="indent-8 text-[1.2em]">
                 Berikan <i>Oralit</i>, bila tidak tersedia berikan cairan rumah tangga
                 misalnya <i>air tajin, kuah sayur, sari buah, air teh, air matang</i> dan
                 cairan lain untuk mengurangi dehidrasi.
