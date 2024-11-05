@@ -21,16 +21,16 @@ const Oralit = () => {
                     </div>
 
                     {/* Composisi */}
-                    <div className="lg:row-span-2 lg:row-start-3 rounded-md bg-white-shadow  md-composisi">
+                    <div className="lg:row-span-2 lg:row-start-3 rounded-md md:mb-5 bg-white-shadow  md-composisi">
                         <Composisi />
                     </div>
 
                     {/* Judul & Section */}
-                    <div className="lg:col-span-4 lg:col-start-2 rounded-md my-4 bg-white-shadow">
+                    <div className="lg:col-span-4 lg:col-start-2 rounded-md md:mt-5 mb-4 bg-white-shadow">
                         <Judul />
                     </div>
 
-                    <div className="lg:col-span-4 lg:row-span-3 lg:col-start-2 lg:row-start-2 rounded-md mb-3 bg-white-shadow md-section">
+                    <div className="lg:col-span-4 lg:row-span-3 mb-5 lg:col-start-2 lg:row-start-2 rounded-md bg-white-shadow md-section">
                         <Section />
                     </div>
                 </div>

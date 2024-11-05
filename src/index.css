@@ -19,7 +19,7 @@
     @apply md:row-start-4;
   }
   .md-section {
-    @apply md:row-span-4 md:row-start-5;
+    @apply md:row-span-4 md:row-start-5 md:mt-0;
   }
 
   .md-fifth-container {
